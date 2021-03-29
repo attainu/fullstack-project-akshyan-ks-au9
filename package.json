@@ -18,10 +18,14 @@
   },
   "homepage": "https://github.com/attainu/fullstack-project-akshyan-ks-au9#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "mongoose": "^5.12.2"
   },
   "devDependencies": {
     "eslint": "^7.22.0",
+    "eslint-plugin-react": "^7.23.1",
     "nodemon": "^2.0.7"
   }
 }

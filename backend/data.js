@@ -1,11 +1,26 @@
+import bcrypt from 'bcryptjs';
+
 const data = {
+    users: [
+        {
+            name: 'Syed',
+            email: 'admin@example.com',
+            password: bcrypt.hashSync('1234', 8),
+            isAdmin: true,
+        },
+        {
+            name: 'Ahmed',
+            email: 'user@example.com',
+            password: bcrypt.hashSync('1234', 8),
+            isAdmin: false,
+        },
+    ],
     products: [
-      {
-            _id: '1',
-            name: 'iPhone XR',
+        {
+            name: 'iPhone XR 1',
             category: 'Mobiles',
             image: '/images/p1.jpg',
-            price: '36,000/-',
+            price: '36000',
             countInStock: 10,
             brand: 'iphone',
             rating: 4.5,
@@ -13,11 +28,10 @@ const data = {
             description: 'high quality product',
         },
         {
-            _id: '2',
-            name: 'iPhone XR',
+            name: 'iPhone XR 2',
             category: 'Mobiles',
             image: '/images/p1.jpg',
-            price: '36,000/-',
+            price: '36000',
             countInStock: 20,
             brand: 'iphone',
             rating: 4.5,
@@ -25,11 +39,10 @@ const data = {
             description: 'high quality product',
         },
         {
-            _id: '3',
-            name: 'iPhone XR',
+            name: 'iPhone XR 3',
             category: 'Mobiles',
             image: '/images/p1.jpg',
-            price: '36,000/-',
+            price: '36000',
             countInStock: 0,
             brand: 'iphone',
             rating: 4.5,
@@ -37,11 +50,11 @@ const data = {
             description: 'high quality product',
         },
         {
-            _id: '4',
-            name: 'iPhone XR',
+
+            name: 'iPhone XR 4',
             category: 'Mobiles',
             image: '/images/p1.jpg',
-            price: '36,000/-',
+            price: '36000',
             countInStock: 15,
             brand: 'iphone',
             rating: 4.5,
@@ -49,11 +62,11 @@ const data = {
             description: 'high quality product',
         },
         {
-            _id: '5',
-            name: 'iPhone XR',
+
+            name: 'iPhone XR 5',
             category: 'Mobiles',
             image: '/images/p1.jpg',
-            price: '36,000/-',
+            price: '36000',
             countInStock: 5,
             brand: 'iphone',
             rating: 4.5,
@@ -61,11 +74,10 @@ const data = {
             description: 'high quality product',
         },
         {
-            _id: '6',
-            name: 'iPhone XR',
+            name: 'iPhone XR 6',
             category: 'Mobiles',
             image: '/images/p1.jpg',
-            price: '36,000/-',
+            price: '36000',
             countInStock: 12,
             brand: 'iphone',
             rating: 4.5,
