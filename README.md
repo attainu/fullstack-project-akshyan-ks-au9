@@ -39,6 +39,7 @@ Enter admin email and password and click signin
 
 
 Application includes: 
+
  Install Tools  
  Design Website Template  
  Display Products  
