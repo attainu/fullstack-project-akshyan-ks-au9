@@ -36,3 +36,50 @@ It creates 6 sample products
 6. Admin Login
 Run http://localhost:3000/signin
 Enter admin email and password and click signin
+
+
+Application includes: 
+ Install Tools  
+ Design Website Template  
+ Display Products  
+ Create React App  
+ Create Rating and Product Component  
+ Build Product Screen  
+ Create Node.Js Server  
+ Load Product From Backend  
+ Install ESLint  
+ Add Redux To Home Screen  
+ Add Redux To Product Screen  
+ Handle Add To Cart Button  
+ Implement Add To Cart  
+ Build Cart Screen  
+ Implement Remove From Cart  
+ Create Sample Users In MongoDB  
+ Create Sample Products In MongoDB  
+ Create Signin Backend  
+ Design Signin Screen  
+ Implement Signin Action  
+ Create Register Screen  
+ Create Shipping Screen  
+ Create Payment Screen  
+ Design Place Order Screen  
+ Create Place Order API  
+ Implement Place Order Action  
+ Create Order Screen  
+ Add PayPal button  
+ Implement Order Payment  
+ Display Order History  
+ Display User Profile  
+ Update User Profile  
+ Creat Admin View
+ List-Products
+ Create-Product
+ build product edit screen
+ Update-Product
+ Upload-Product-Image
+ Delete-Product
+ list orders
+ Delete-Order
+ Deliver-Order
+ publish to heroku
+ 
